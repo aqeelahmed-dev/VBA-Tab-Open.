@@ -1,0 +1,13 @@
+Sub OpenUrlsInChrome()
+    Dim cell As Range
+    Dim url As String
+
+    ' Loop through each cell in column A (rows 1 to 10)
+    For Each cell In Range("A1:A10")
+        url = cell.Value
+        If url <> "" Then
+            ' Open the URL in default web browser
+            Shell "explorer.exe """ & url & """", vbNormalFocus
+        End If
+    Next cell
+End Sub
