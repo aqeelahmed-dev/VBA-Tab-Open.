@@ -1,4 +1,4 @@
-VBA Code to open the Url rom any specific Colum in Chrom in one CLick.
+VBA Code to open the Url from any specific Colum in Chrom in one CLick.
 
 
 Here are the instructions: 
